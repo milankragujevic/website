@@ -10,6 +10,9 @@ body{
   font-size:13px;
   border-top: #eeeeee 1px solid;
 }
+.full-image-container img{
+    width: 100%;
+}
 .image-container {
   overflow: hidden;
   height: 400px;
