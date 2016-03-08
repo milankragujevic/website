@@ -4,7 +4,7 @@ spa-kit is a starter kit for single page apps that uses webpack, sass, hot reloa
 ## Installation
 
 ```
-git clone --bare https://github.com/0x4139/spa-kit your-new-project
+git clone https://github.com/piftel/website
 cd your-new project
 npm install
 ```
