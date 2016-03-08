@@ -1,0 +1,64 @@
+@import url(//fonts.googleapis.com/css?family=Lato:400,300);
+@import "../bower_components/foundation-sites/scss/foundation";
+@include foundation-grid
+@include foundation-float-classes
+@include foundation-menu
+body{
+  font-family: 'Lato', sans-serif;
+}
+.menu{
+  font-size:13px;
+  border-top: #eeeeee 1px solid;
+}
+.image-container {
+  overflow: hidden;
+  height: 400px;
+}
+.sidebar-image-container {
+  overflow: hidden;
+  height: 200px;
+}
+.post-crop{
+  color: #00aff0;
+}
+.post-container{
+  border: 1px solid #eee;
+}
+.post-crop span{
+  padding-top: 10px;
+  margin-left: 20px;
+}
+.post{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+.post-info{
+  color:#999;
+  font-size: 13px;
+}
+.facebook:focus{
+  border: none;
+  outline: none;
+}
+.sidebar-image-container img{
+  width:100%;
+}
+.image-container img{
+  width: 100%;
+}
+.icon-container{
+  color: #999;
+  font-size: 24px;
+  padding-right: 12px;
+}
+.post-crop{
+  height: 60px;
+  background: #f4f4f4 ;
+}
+.more-shadow {
+  width: 100%;
+  height: 15px;
+  background: url(../img/expand-crook.png);
+  background-repeat: repeat-x;
+  display: block;
+}

@@ -30,6 +30,7 @@
   "devDependencies": {
     "autoprefixer-loader": "^3.1.0",
     "css-loader": "^0.23.0",
+    "expose-loader": "^0.7.1",
     "file-loader": "^0.8.5",
     "img-loader": "^1.2.2",
     "jsx-loader": "^0.13.2",
